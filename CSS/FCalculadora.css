@@ -1,0 +1,153 @@
+body{
+  background: url('https://i.ibb.co/DzqRmBR/De-Watermark-ai-1732471620301.png') no-repeat center center/cover;
+background-attachment: fixed;
+
+
+}
+
+
+ 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; 
+  height: auto;
+}
+
+a img {
+  transition: transform 0.3s ease;
+}
+
+a img:hover {
+  transform: scale(1.1); 
+}
+
+
+/*//////////////////////////Formulario//////////////////////////////////////*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+
+  
+}
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 50px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80vmin;
+  /*height: 68vmin; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ /* justify-content: space-between;*/
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+
+#question-container {
+  margin-bottom: 15px; 
+  flex-grow: 1; 
+}
+
+
+button {
+  background-color: #66ccff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0099cc;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #0077b3;
+  transform: translateY(2px);
+}
+
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1);
+}
+
+
+#results {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  display: none;
+  text-align: center;
+}
+
+
+#resultsText {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#resultsText strong {
+  color: #ffcc00;
+}
+
+/* Transiciones fomulario*/
+input,
+label,
+button {
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  color: #66ccff;
+}
+
+label:hover {
+  color: #0099cc;
+  transform: translateX(5px);
+}
+
+
+
